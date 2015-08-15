@@ -14,6 +14,11 @@
 		3D4245941B7EE48000DB2012 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D4245931B7EE48000DB2012 /* Images.xcassets */; };
 		3D4245971B7EE48000DB2012 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D4245951B7EE48000DB2012 /* LaunchScreen.xib */; };
 		3D4245A31B7EE48100DB2012 /* AnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4245A21B7EE48100DB2012 /* AnimationDemoTests.m */; };
+		3D4245B11B7EE87E00DB2012 /* PositionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4245B01B7EE87E00DB2012 /* PositionViewController.m */; };
+		3D4245B41B7F2C7100DB2012 /* OpacityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4245B31B7F2C7100DB2012 /* OpacityViewController.m */; };
+		3D4245B71B7F2F6000DB2012 /* ScaleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4245B61B7F2F6000DB2012 /* ScaleViewController.m */; };
+		3D4245BA1B7F338B00DB2012 /* ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4245B91B7F338B00DB2012 /* ColorViewController.m */; };
+		3D4245BD1B7F425700DB2012 /* RotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4245BC1B7F425700DB2012 /* RotationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,16 @@
 		3D42459C1B7EE48100DB2012 /* AnimationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D4245A11B7EE48100DB2012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D4245A21B7EE48100DB2012 /* AnimationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationDemoTests.m; sourceTree = "<group>"; };
+		3D4245AF1B7EE87E00DB2012 /* PositionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PositionViewController.h; path = ../PositionViewController.h; sourceTree = "<group>"; };
+		3D4245B01B7EE87E00DB2012 /* PositionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PositionViewController.m; path = ../PositionViewController.m; sourceTree = "<group>"; };
+		3D4245B21B7F2C7100DB2012 /* OpacityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpacityViewController.h; sourceTree = "<group>"; };
+		3D4245B31B7F2C7100DB2012 /* OpacityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpacityViewController.m; sourceTree = "<group>"; };
+		3D4245B51B7F2F6000DB2012 /* ScaleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleViewController.h; sourceTree = "<group>"; };
+		3D4245B61B7F2F6000DB2012 /* ScaleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaleViewController.m; sourceTree = "<group>"; };
+		3D4245B81B7F338B00DB2012 /* ColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorViewController.h; sourceTree = "<group>"; };
+		3D4245B91B7F338B00DB2012 /* ColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorViewController.m; sourceTree = "<group>"; };
+		3D4245BB1B7F425700DB2012 /* RotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationViewController.h; sourceTree = "<group>"; };
+		3D4245BC1B7F425700DB2012 /* RotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +96,16 @@
 		3D4245851B7EE48000DB2012 /* AnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3D4245AF1B7EE87E00DB2012 /* PositionViewController.h */,
+				3D4245B01B7EE87E00DB2012 /* PositionViewController.m */,
+				3D4245B21B7F2C7100DB2012 /* OpacityViewController.h */,
+				3D4245B31B7F2C7100DB2012 /* OpacityViewController.m */,
+				3D4245B51B7F2F6000DB2012 /* ScaleViewController.h */,
+				3D4245B61B7F2F6000DB2012 /* ScaleViewController.m */,
+				3D4245B81B7F338B00DB2012 /* ColorViewController.h */,
+				3D4245B91B7F338B00DB2012 /* ColorViewController.m */,
+				3D4245BB1B7F425700DB2012 /* RotationViewController.h */,
+				3D4245BC1B7F425700DB2012 /* RotationViewController.m */,
 				3D42458A1B7EE48000DB2012 /* AppDelegate.h */,
 				3D42458B1B7EE48000DB2012 /* AppDelegate.m */,
 				3D42458D1B7EE48000DB2012 /* ViewController.h */,
@@ -220,8 +245,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D42458F1B7EE48000DB2012 /* ViewController.m in Sources */,
+				3D4245B71B7F2F6000DB2012 /* ScaleViewController.m in Sources */,
+				3D4245BD1B7F425700DB2012 /* RotationViewController.m in Sources */,
+				3D4245B41B7F2C7100DB2012 /* OpacityViewController.m in Sources */,
 				3D42458C1B7EE48000DB2012 /* AppDelegate.m in Sources */,
 				3D4245891B7EE48000DB2012 /* main.m in Sources */,
+				3D4245B11B7EE87E00DB2012 /* PositionViewController.m in Sources */,
+				3D4245BA1B7F338B00DB2012 /* ColorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +446,7 @@
 				3D4245A81B7EE48100DB2012 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D4245A91B7EE48100DB2012 /* Build configuration list for PBXNativeTarget "AnimationDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +455,7 @@
 				3D4245AB1B7EE48100DB2012 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
